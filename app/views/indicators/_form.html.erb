@@ -1,0 +1,26 @@
+<h4>Indicador</h4>
+<hr>
+<%= simple_form_for(@indicator) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="form-inputs">
+    <%= f.input :title %>
+    <%= f.input :description %>
+    <%= f.input :methodology %>
+    <%= f.input :positive %>
+    <%= f.input :negative %>
+    <%= f.input :medium %>
+    <%= f.input :unit %>
+    <%= f.input :value %>
+    <%= f.input :rate %>
+    <%= f.input :result %>
+    <%= f.input :justification %>
+    <%= f.input :other %>
+    <%= f.association :subtheme %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit , class: "btn btn-primary" %>
+  </div>
+<% end %>

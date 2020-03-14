@@ -1,0 +1,10 @@
+<div class="container" style="margin-top: 100px;">
+
+<h1>Editing Reason</h1>
+
+<%= render 'form', reason: @reason %>
+
+<%= link_to 'Show', @reason %> |
+<%= link_to 'Destroy', @topic, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', reasons_path %>
+</div>

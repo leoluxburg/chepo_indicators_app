@@ -1,0 +1,16 @@
+.footer2{
+  background-color: #6B6B6B;
+}
+.footer2 img{
+  height: 60px;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}

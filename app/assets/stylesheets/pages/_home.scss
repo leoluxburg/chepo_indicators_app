@@ -1,1 +1,145 @@
 // Specific CSS for your home-page
+.banner{
+
+}
+.banner h2{
+color: #25527A;
+
+}
+.banner img{
+height: 150px;
+}
+.banner i{
+
+}
+.banner p{
+  font-size: 22px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.row.content {height: 550px}
+
+body {
+  font-family: "Lato", sans-serif;
+  //background-color: #E7EFF5;
+}
+
+a {
+  color: #25527A;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+.header {
+  background-color: white;
+}
+
+.header-links {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.header-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+.header-title h2 {
+  font-size: 25px;
+  color: #25527A !important;
+
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header li {
+  float: left;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.header li a {
+  display: block;
+  color: #25527A !important;
+  padding: 12px;
+  text-decoration: none ;
+  font-weight: bold;
+}
+
+.header li a:hover {
+  text-decoration: none;
+
+}
+.description{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.description p{
+ color:  #25527A;
+  font-weight: lighter;
+  font-size: 15px;
+    text-align: justify;
+}
+
+.table{
+  background-color: white;
+  border-style: solid;
+  border-color: #25527A ;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table-content{
+  background-color: white;
+  padding-top: 15px;
+
+}
+
+.topic{
+  padding-bottom: 20px;
+}
+
+.table-content h5{
+  padding-left: 30px;
+  color: #5B95C1;
+
+}
+.table-content h6{
+  color:  #25527A;
+  font-weight: lighter;
+  padding-left: 60px;
+
+}
+.table-content h3{
+  color: #25527A !important;
+
+}
+.btn-primary{
+  background-color: #25527A;
+  border-color: #25527A;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+

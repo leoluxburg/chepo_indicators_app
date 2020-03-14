@@ -1,0 +1,27 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: 95vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  background-attachment: fixed;
+}
+
+.banner h3{
+  color: white;
+}
+
+.banner img{
+  height: 150px;
+}
+
+.small img{
+  height: 300px;
+}
+
+.punto img{
+  height: 75px;
+}

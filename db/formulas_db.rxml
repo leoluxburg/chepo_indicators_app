@@ -1,0 +1,155 @@
+fomulas_attributes = [
+  #Indicador 1,
+  {
+  statistic_id: 1,
+  indicator_id: 1
+  },
+  {
+   statistic_id: 2,
+   indicator_id: 1,
+  },
+  #Indicador 2,
+  {
+    statistic_id: 3,
+    indicator_id: 2,
+  },
+  {
+    statistic_id: 4,
+    indicator_id: 2,
+  },
+  #Indicador 5,
+  {
+    statistic_id: 5,
+    indicator_id: 5,
+  },
+  {
+    statistic_id: 6,
+    indicator_id: 5,
+  },
+  #Indicador 7,
+  {
+    statistic_id: 7,
+    indicator_id: 7,
+  },
+  {
+    statistic_id: 2,
+    indicator_id: 7,
+  },
+  #Indicador 8,
+  {
+    statistic_id: 8,
+    indicator_id: 8,
+  },
+  {
+    statistic_id: 9,
+    indicator_id: 8,
+  },
+   #Indicador 9,
+   {
+    statistic_id: 9,
+    indicator_id: 9,
+  },
+  {
+    statistic_id: 2,
+    indicator_id: 9,
+  },
+   #Indicador 11,
+   {
+    statistic_id: 11,
+    indicator_id: 11,
+  },
+  {
+    statistic_id: 12,
+    indicator_id: 11,
+  },
+   #Indicador 14,
+  {
+    statistic_id: 13,
+    indicator_id: 14,
+  },
+  {
+    statistic_id: 12,
+    indicator_id: 14,
+  },
+  #Indicador 15,
+  {
+    statistic_id: 14,
+    indicator_id: 15,
+  },
+  {
+    statistic_id: 12,
+    indicator_id: 15,
+  },
+  #Indicador 16,
+  {
+    statistic_id: 15,
+    indicator_id: 16,
+  },
+  {
+    statistic_id: 12,
+    indicator_id: 16,
+  },
+  #Indicador 17,
+  {
+    statistic_id: 16,
+    indicator_id: 17,
+  },
+  {
+    statistic_id: 2,
+    indicator_id: 17,
+  },
+ #Indicador 18,
+  {
+    statistic_id: 17,
+    indicator_id: 18,
+  },
+  {
+    statistic_id: 2,
+    indicator_id: 18,
+  },
+   #Indicador 20,
+  {
+    statistic_id: 18,
+    indicator_id: 20,
+  },
+  {
+    statistic_id: 19,
+    indicator_id: 20,
+  },
+    #Indicador 21,
+  {
+    statistic_id: 20,
+    indicator_id: 21,
+  },
+  {
+    statistic_id: 2,
+    indicator_id: 21,
+  },
+  #Indicador 24
+  {
+    statistic_id: 21,
+    indicator_id: 24,
+  },
+  {
+    statistic_id: 22,
+    indicator_id: 24,
+  },
+  #Indicador 29
+  {
+    statistic_id: 23,
+    indicator_id: 29,
+  },
+  {
+    statistic_id: 24,
+    indicator_id: 29,
+  },
+  #Indicador 30
+  {
+    statistic_id: 23,
+    indicator_id: 30,
+  },
+  {
+    statistic_id: ,
+    indicator_id: 30,
+  },
+]

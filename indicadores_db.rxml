@@ -1,0 +1,19 @@
+indicadores_attributes = [
+  {
+    title: "Porcentaje de hogares con conexiones domiciliarias a la red de agua de la ciudad",
+    description: "Porcentaje de población en viviendas con, o con acceso a, conexiones de agua potable",
+    methodology:
+    "El departamento comercial de la empresa suministradora de agua contará con una base de datos actualizada de la cantidad\r\nde clientes residenciales. La empresa suministradora de agua podrá también tener información sobre la cantidad total de\r\nhogares en la ciudad (planes maestros, planes comerciales, estrategia de expansión, etc.). De lo contrario, es posible que\r\nel municipio, que recibe actualizaciones sobre los resultados del censo, tenga esta información.",
+    positive: "> 90%-100%",
+    negative: "< 75%",
+    medium: "75%–90%",
+    unit: "%",
+    value: "98.5",
+    rate: nil,
+    result: "Positivo",
+    justification: "El suministro de agua limpia es absolutamente necesario para la vida y la salud; sin embargo, muchas personas no tienen\r\nacceso a un suministro de agua adecuado o solo pueden obtenerlo a precios elevados. En muchas ciudades, los hogares\r\nde los asentamientos informales rara vez se encuentran conectadas a la red y solo pueden obtener agua de proveedores\r\na un precio 200 veces más alto que el del agua de la red. Mejorar el acceso al agua potable implica una menor carga para\r\nlas personas, sobre todo las mujeres, para recoger agua. También significa una reducción en la carga global asociada con\r\nlas enfermedades relacionadas con el agua y una mejora en la calidad de vida.\r\nEste indicador supervisa el acceso a la red de agua de la ciudad sobre la base de la suposición de que es posible que\r\nsuministre agua potable. El consumo de agua contaminada es la causa directa de muchas enfermedades en países en\r\ndesarrollo.\r\nBasado en el documento de trabajo de la Administración de Recursos Ambientales (ERM, por sus siglas en inglés) de 2006:\r\nThe Current Status of City Indicators Annexes: Indicator 4 “Access to safe water” ",
+    other: "Similar al “Porcentaje de la población de la ciudad con servicio de suministro de agua potable” y “Porcentaje de la\r\npoblación de la ciudad con acceso sostenible a una mejor fuente de agua” del Programa Global para los Indicadores\r\nUrbanos (GCIF, por sus siglas en inglés)",
+    subtheme_id: 1,
+  },
+
+]

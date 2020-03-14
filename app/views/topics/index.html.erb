@@ -1,0 +1,71 @@
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="header-links">
+        <ul>
+          <li><a href="/topics">CATEGORIAS</a></li>
+          <li><a href="/reasons">PILARES</a></li>
+          <li><a href="/themes">TEMAS</a></li>
+          <li><a href="/subthemes">SUBTEMAS</a></li>
+          <li><a href="/indicators">INDICADORES</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header-title">
+      <h2>Indicadores de la Iniciativa Ciudades
+      Emergentes y Sostenibles</h2>
+    </div>
+  </div>
+</div>
+<div class="container" style="margin-top: 10px;">
+  <p id="notice"><%= notice %></p>
+  <h2>Categorias</h2>
+  <hr>
+  <div class="table">
+    <div class="table-content">
+      <% @topics.each do |topic| %>
+      <% if topic.id == 1 %>
+      <div class="topic">
+        <h3> <i class="fas fa-leaf"></i> <%= topic.title %></h3>
+        <h5>Pilares <i class="fas fa-angle-down" data-toggle="collapse" data-target="#demo1"></i></h5>
+        <div id="demo1" class="collapse">
+          <% topic.reasons.each do |reason| %>
+          <%= link_to reason do %>
+          <h6> <%= reason.title %> </h6>
+          <% end %>
+          <%end%>
+        </div>
+      </div>
+      <% elsif topic.id == 2%>
+      <div class="topic">
+        <h3> <i class="fas fa-building"></i> <%= topic.title %></h3>
+        <h5>Pilares <i class="fas fa-angle-down" data-toggle="collapse" data-target="#demo2"></i></h5>
+        <div id="demo2" class="collapse">
+          <% topic.reasons.each do |reason| %>
+          <%= link_to reason do %>
+          <h6> <%= reason.title %> </h6>
+          <%end%>
+          <%end%>
+        </div>
+      </div>
+      <% else %>
+      <div class="topic">
+        <h3> <i class="fas fa-balance-scale"></i> <%= topic.title %></h3>
+        <h5>Pilares <i class="fas fa-angle-down" data-toggle="collapse" data-target="#demo3"></i></h5>
+        <div id="demo3" class="collapse">
+          <% topic.reasons.each do |reason| %>
+          <%= link_to reason do %>
+          <h6> <%= reason.title %> </h6>
+          <%end%>
+          <%end%>
+        </div>
+      </div>
+      <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+

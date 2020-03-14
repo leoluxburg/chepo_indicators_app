@@ -1,0 +1,10 @@
+<div class="container" style="margin-top: 100px;">
+<h1>Editar Categoria</h1>
+
+<%= render 'form', topic: @topic %>
+
+<%= link_to 'Show', @topic %> |
+<%= link_to 'Destroy', @topic, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', topics_path %>
+
+</div>

@@ -1,0 +1,37 @@
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="header-links">
+        <ul>
+          <li><a href="/Statistics">DATOS</a></li>
+          <li><a href="/Statistics">FORMULAS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header-title">
+      <h2>Estadisticas de la ciudad</h2>
+    </div>
+  </div>
+</div>
+<div class="container" style="margin-top: 10px;">
+  <h2>Datos</h2>
+  <p id="notice"><%= notice %></p>
+  <hr>
+  <div class="table">
+    <div class="table-content">
+      <div class="row" style="padding-left: 10px; padding-right: 10px;">
+      <% @statistics.each do |stat| %>
+      <div class="topic">
+        <%= link_to stat do %>
+        <h4><%= stat.title %></h4>
+        <h5>Value: <%= stat.value %></h5>
+        <% end %>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>

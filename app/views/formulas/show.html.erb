@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Statistic:</strong>
+  <%= @formula.statistic %>
+</p>
+
+<p>
+  <strong>Indicator:</strong>
+  <%= @formula.indicator %>
+</p>
+
+<%= link_to 'Edit', edit_formula_path(@formula) %> |
+<%= link_to 'Back', formulas_path %>
