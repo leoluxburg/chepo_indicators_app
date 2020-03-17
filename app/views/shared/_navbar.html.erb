@@ -10,7 +10,7 @@
       <li><%= link_to topics_path do %> <i style="padding-left: 10px;"class="fas fa-file-alt"></i> Indicadores</p><% end %></li>
        <li><%= link_to statistics_path do %> <p><i style="padding-left: 10px;"class="fas fa-chart-bar"></i> Estadisticas</p><% end %></li>
        <% if user_signed_in? %>
-       <li><a href="/dashboard"><p><i style="padding-left: 10px;"class="fas fa-pencil-alt"></i>Confi</p></a></li>
+       <li><a href="/dashboard"><p><i style="padding-left: 10px;"class="fas fa-tools"></i>></i>Dashboard</p></a></li>
        <%= link_to destroy_user_session_path, method: :delete do %>
      <p><i style="padding-left: 10px;"class="fas fa-sign-out-alt"></i> Salir</p>
      <% end %>
