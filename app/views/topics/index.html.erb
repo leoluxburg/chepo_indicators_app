@@ -29,7 +29,7 @@
       <% if topic.id == 1 %>
       <div class="topic">
         <h3> <i class="fas fa-leaf"></i> <%= topic.title %></h3>
-        <h5>Pilares <i class="fas fa-angle-down" data-toggle="collapse" data-target="#demo1"></i></h5>
+        <div data-toggle="collapse" data-target="#demo1"><h5>Pilares <i class="fas fa-angle-down" ></i></h5></div>
         <div id="demo1" class="collapse">
           <% topic.reasons.each do |reason| %>
           <%= link_to reason do %>
@@ -41,7 +41,7 @@
       <% elsif topic.id == 2%>
       <div class="topic">
         <h3> <i class="fas fa-building"></i> <%= topic.title %></h3>
-        <h5>Pilares <i class="fas fa-angle-down" data-toggle="collapse" data-target="#demo2"></i></h5>
+        <div class="" data-toggle="collapse" data-target="#demo2"><h5>Pilares <i class="fas fa-angle-down" ></i></h5></div>
         <div id="demo2" class="collapse">
           <% topic.reasons.each do |reason| %>
           <%= link_to reason do %>
@@ -53,7 +53,7 @@
       <% else %>
       <div class="topic">
         <h3> <i class="fas fa-balance-scale"></i> <%= topic.title %></h3>
-        <h5>Pilares <i class="fas fa-angle-down" data-toggle="collapse" data-target="#demo3"></i></h5>
+        <div data-toggle="collapse" data-target="#demo3" ><h5>Pilares <i class="fas fa-angle-down" ></i></h5></div>
         <div id="demo3" class="collapse">
           <% topic.reasons.each do |reason| %>
           <%= link_to reason do %>

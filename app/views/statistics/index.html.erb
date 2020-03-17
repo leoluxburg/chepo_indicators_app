@@ -22,16 +22,16 @@
   <div class="table">
     <div class="table-content">
       <div class="row" style="padding-left: 10px; padding-right: 10px;">
-      <% @statistics.each do |stat| %>
-      <div class="topic">
-        <%= link_to stat do %>
-        <h4><%= stat.title %></h4>
-        <h5>Value: <%= stat.value %></h5>
-        <% end %>
-      <% end %>
+        <% @statistics.each do |stat| %>
+        <div class="topic">
+          <%= link_to stat do %>
+          <h4><%= stat.title %></h4>
+          <h5>Value: <%= stat.value %></h5>
+          <% end %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
 </div>
-</div>
-<br>
+

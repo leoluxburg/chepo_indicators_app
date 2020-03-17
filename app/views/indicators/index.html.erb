@@ -25,18 +25,15 @@
   <hr>
   <div class="table">
     <div class="table-content">
-       <% @indicators.each do |indicator| %>
-      <div class="topic">
-        <%= link_to indicator do %>
+     <% @indicators.each do |indicator| %>
+     <div class="topic">
+      <%= link_to indicator do %>
 
-        <h3>· <%= indicator.title %></h3>
-        <% end %>
-      </div>
+      <h3>· <%= indicator.title %></h3>
       <% end %>
     </div>
+    <% end %>
   </div>
-  <p id="notice"><%= notice %></p>
-
 </div>
-
+</div>
 

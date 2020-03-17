@@ -6,6 +6,8 @@ class PagesController < ApplicationController
   end
 
   def dashboard
-
+    @indicators = Indicator.all
+    @stats = Statistic.all
+    @users = User.all
   end
 end

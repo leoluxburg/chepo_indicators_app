@@ -28,17 +28,15 @@
         </div>
       </div>
       <div class="description">
-      <h4>Indicadores</h4>
+        <h4>Indicadores</h4>
         <p>
-       <% @statistic.indicators.each do |indicator| %>
-        <%= indicator.title %>
-        <% end %>
-      </p>
-    </div>
-  </div>
-</div>
-<%= link_to 'Edit', edit_statistic_path(@statistic) %>
-
+         <% @statistic.indicators.each do |indicator| %>
+         <%= indicator.title %>
+         <% end %>
+       </p>
+     </div>
+   </div>
+ </div>
 </div>
 
 

@@ -1,0 +1,56 @@
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h3>Indicadores de la Iniciativa Ciudades <br>
+  Emergentes y Sostenibles</h3>
+  <p>Dashboard</p>
+</div>
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-3">
+      <br>
+      <h3>Configurar</h3>
+      <p>Editar informacion</p>
+      <ul class="nav nav-tabs flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#home">Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu1">Indicators</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu2">User</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-9">
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+          <h2>Estadisticas</h2>
+          <hr>
+          <% @stats.each do |s| %>
+
+          <p><%= s.id %> <%= s.title %> | <%= s.value %> <br> <%= link_to 'Show', s %> | <%= link_to 'Edit', edit_indicator_path(s) %> | <% link_to 'Destroy', s, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+
+          <% end %>
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+          <h2>Indicadores</h2>
+          <hr>
+          <% @indicators.each do |i| %>
+
+          <p><%= i.id %> <%= i.title %>  <br> <%= link_to 'Show', i %> | <%= link_to 'Edit', edit_indicator_path(i) %> | <% link_to 'Destroy', i, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+
+          <% end %>
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+         <h2>Inf. de Usuario</h2>
+         <br>
+         <p>Email: <br>  <%= current_user.email %></p>
+         <p>Autorizaciones: <br> Admin</p>
+       </div>
+     </div>
+
+   </div>
+ </div>
+</div>
+
