@@ -1,8 +1,32 @@
 <div class="container" style="padding-top: 150px; ">
 
 <h1>Editing Indicator</h1>
+<hr>
+<br>
+<%= simple_form_for(@indicator) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+<h3 class="text-center"><%= @indicator.title %></h3>
+<br>
+<p>
+  <strong>Stadisticas:</strong>
+    <br>
+    <% @indicator.statistics.each do |x| %>
+    <%= x.title %> | <%= x.value %> <br>
+   <%= link_to 'Edit', edit_indicator_path(@indicator) %> <br>
+    <% end %>
+</p>
 
-<%= render 'form', indicator: @indicator %>
+  <div class="form-inputs">
+
+    <%= f.input :result %>
+
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit , class: "btn btn-primary" %>
+  </div>
+<% end %>
 
 <%= link_to 'Show', @indicator %> |
 <%= link_to 'Back', indicators_path %>

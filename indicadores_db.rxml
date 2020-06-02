@@ -1,19 +1,808 @@
 indicadores_attributes = [
   {
-    title: "Porcentaje de hogares con conexiones domiciliarias a la red de agua de la ciudad",
-    description: "Porcentaje de población en viviendas con, o con acceso a, conexiones de agua potable",
-    methodology:
-    "El departamento comercial de la empresa suministradora de agua contará con una base de datos actualizada de la cantidad\r\nde clientes residenciales. La empresa suministradora de agua podrá también tener información sobre la cantidad total de\r\nhogares en la ciudad (planes maestros, planes comerciales, estrategia de expansión, etc.). De lo contrario, es posible que\r\nel municipio, que recibe actualizaciones sobre los resultados del censo, tenga esta información.",
-    positive: "> 90%-100%",
+    title: "Existencia de un proceso de planificación participativa",
+    description: "Un proceso de planificación participativa se lleva a cabo en colaboración con las organizaciones de la comunidad y la
+    participación ciudadana.",
+    methodology: "Esta información debe verificarse a través de expertos en urbanismo y formadores de políticas urbanas involucrados en
+    la planificación de una ciudad. Pueden provenir del departamento de planificación de la ciudad o del ministerio nacional
+    responsable del desarrollo urbano. Cualquier cambio importante que haya ocurrido durante los últimos cinco años debe
+    mencionarse y explicarse.",
+    positive: "Esta información debe verificarse a través de expertos en urbanismo y formadores de políticas urbanas involucrados en
+    la planificación de una ciudad. Pueden provenir del departamento de planificación de la ciudad o del ministerio nacional
+    responsable del desarrollo urbano. Cualquier cambio importante que haya ocurrido durante los últimos cinco años debe
+    mencionarse y explicarse.",
+    negative: "La planificación no es
+    completamente participativa:
+    a) no existe un marco legal; b) no
+    se consulta a los grupos de interés
+    y, por lo tanto, c) no se recogen
+    opiniones; d) no hay difusión;
+    e) no hay información nueva para
+    incorporar a los objetivos y las
+    metas del plan.",
+    medium: "La planificación no es
+    completamente participativa:
+    a) es parte del marco legal nacional
+    aunque no parte del marco legal
+    subnacional; b) no se consulta a
+    todos los grupos de interés; las
+    opiniones no se recogen de forma
+    metódica; d) los resultados se
+    difunden parcialmente; e) algunos
+    resultados se incorporan a los
+    objetivos y las metas del plan.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"La participación ciudadana en el gobierno local es una parte importante de la democracia y la autodeterminación.
+    También da lugar a una base de apoyo local fuerte para el gobierno, que puede monitorear de mejor forma las necesidades
+    de los ciudadanos, mantener un control atento de las funciones, y representar los deseos de toda la ciudadanía.
+    Basado en UN-Habitat (2004), Urban Indicators Guidelines, “Check-list 8: Citizens’ Participation,” p. 51.",
+    other: "UN-Habitat utiliza un indicador similar (“Participación ciudadana”).",
+    subtheme_id: 50,
+  },
+  {
+    title: "Existencia de un presupuesto participativo y porcentaje del presupuesto que se denomina a través de la participacion de la sociedad civil",
+    description: "La participación de la sociedad civil en la planificación del presupuesto municipal y el porcentaje del presupuesto que se
+    determina a través de la participación de la sociedad civil.",
+    methodology: "Esta información debe verificarse a través de expertos en urbanismo y formadores de políticas urbanas involucrados en
+    la planificación de una ciudad. Pueden provenir del departamento de planificación de la ciudad o del ministerio nacional
+    responsable del desarrollo urbano. Cualquier cambio importante que haya ocurrido durante los últimos cinco años debe
+    mencionarse y explicarse.
+    La preparación de un presupuesto participativo es un proceso democrático en el que los miembros de una comunidad
+    deciden directamente cómo gastar una parte del presupuesto público. La mayoría de los ejemplos involucran a gobiernos
+    de ciudades que han sometido a las asambleas ciudadanas las decisiones sobre presupuesto municipal, como las relativas
+    a prioridades generales y la elección de nuevas inversiones. En otros casos, tanto estados como condados, escuelas,
+    universidades, autoridades de las áreas de vivienda y coaliciones de grupos comunitarios han utilizado el recurso del
+    presupuesto participativo para abrir las decisiones sobre el gasto público a la participación democrática.
+    Los miembros de la comunidad toman decisiones sobre presupuesto a través de una serie anual de asambleas y reuniones
+    locales. Existen numerosos modelos de presupuestos participativos, pero la mayoría sigue un proceso básico: diagnóstico,
+    análisis, toma de decisiones, implementación y monitoreo.
+    1. Los habitantes identifican las necesidades prioritarias locales, generan ideas para responder a estas necesidades y
+    eligen representantes de presupuestos para cada comunidad.
+    2. Estos representantes analizan las prioridades locales y desarrollan proyectos concretos para abordar las
+    necesidades prioritarias, junto con expertos en la materia.
+    3. Los habitantes votan a cuál de estos proyectos se otorgará financiamiento.
+    4. El gobierno implementa los proyectos elegidos.
+    5. Los habitantes monitorean la implementación de los proyectos del presupuesto.
+    Por ejemplo, si los habitantes identifican la necesidad de espacios recreativos como prioridad, los representantes del
+    presupuesto pueden desarrollar una propuesta para una nueva cancha de básquet. Los habitantes luego votan sobre esta
+    y otras propuestas, y si aprueban la cancha de básquet, la ciudad financiará su construcción.
+    En 1998 la ciudad brasileña de Porto Alegre comenzó el primer proceso de presupuesto participativo íntegro para el
+    presupuesto municipal. Allí unas 50.000 personas participan año a año para decidir sobre un 20% del presupuesto de
+    la ciudad. Desde 1989 el mecanismo de presupuesto participativo se ha extendido a más de 1.200 ciudades de América
+    Latina, América del Norte, Asia, África y Europa. En Estados Unidos y Canadá, esto incluye procesos de presupuesto
+    participativo en Toronto, Montreal, Guelph y Chicago.",
+    positive: "La sociedad civil participa para
+    determinar por lo menos un 10% del
+    presupuesto total.",
+    negative: "No hay presupuesto participativo.",
+    medium: "La sociedad civil participa para
+    determinar una porción igual o
+    menor al 10% del presupuesto total.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Funcionarios electos, organizaciones comunitarias, académicos e instituciones internacionales como las Naciones
+    Unidas y el Banco Mundial han declarado que los presupuestos participativos constituyen un modelo a seguir por los
+    gobiernos democráticos. ¿Por qué?
+    • Da voz y voto a los miembros de una comunidad
+    Se escucha más a las personas comunes y corrientes, se les da la posibilidad de tomar decisiones reales.
+    • Mejora las decisiones y las hace más equitativas
+    Los habitantes locales conocen mejor lo que necesitan, y de esta manera el dinero del presupuesto se redistribuye
+    a las comunidades con mayores necesidades.
+    • Desarrolla ciudadanos activos y democráticos
+    Los miembros de la comunidad, los empleados y los trabajadores aprenden acerca de la democracia ejerciéndola.
+    Logran una mejor comprensión de asuntos políticos complejos y necesidades comunitarias.
+    • Construye comunidades y fortalece organizaciones comunitarias
+    Las personas logran conocer a sus vecinos y se sienten más conectados con su ciudad. Las organizaciones locales
+    pasan menos tiempo haciendo lobby y más tiempo decidiendo ellos mismos sobre las políticas. Las asambleas
+    presupuestarias conectan a los grupos y atraen a nuevos miembros.
+    • Conecta a políticos y constituyentes
+    Los políticos construyen relaciones más cercanas con sus constituyentes. Los miembros de la comunidad logran
+    conocer a los funcionarios y gobiernos locales electos.
+    • Hace al gobierno más responsable y eficiente
+    Cuando los miembros de la comunidad deciden sobre el gasto público en asambleas públicas, hay menos
+    posibilidades de que tengan lugar hechos de corrupción, se malgaste el dinero o se produzcan reacciones públicas
+    negativas.
+    Basado en Participatory Budgeting Project (disponible en http://www.participatorybudgeting.org).",
+    other: "La Rede Brasileira de Orçamento Participativo (Red Brasileña de Presupuesto Participativo), que incluye 63 ciudades
+    miembros brasileñas y 18 ciudades adicionales en el proceso de unirse (véase la lista completa en http://www.anfermed.
+    com.br/redeop/newop/?page_id=54%20%E2%80%8E) utiliza un indicador similar (véase el punto 3.2.1 en http://www.
+    anfermed.com.br/redeop/newop/?page_id=65) para su banco de datos, así como indicadores más detallados.
+    La Red Argentina de Presupuesto Participativo incluye 44 ciudades argentinas.
+    Orçamento Participativo (Portugal) mantiene un observatorio nacional de presupuesto participativo que incluye, en la
+    actualidad, 14 ciudades portuguesas.
+    Presupuestosparticipativos.com cuenta con una red de 117 ciudades españolas y cuenta con hojas informativas acerca de
+    muchas de ellas, lo que incluye la proporción del presupuesto que se analiza de forma participativa.",
+    subtheme_id: 50,
+  },
+  {
+    title: "Sesiones públicas de rendición de cuentas por año",
+    description: "Número de sesiones por año en las que el gobierno municipal comparte públicamente información acerca de su gestión.",
+    methodology: "El gobierno municipal (el gabinete del intendente o alcalde) reúne información de cada unidad operativa, la consolida,
+    prepara un informe, la presenta al consejo y la hace pública.",
+    positive: "Más de una sesión pública de
+    rendición de cuentas por año",
+    negative: "No hay sesiones públicas anuales de
+    rendición de cuentas",
+    medium: "Una sesión pública anual de
+    rendición de cuentas",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"El justificación para este indicador se basa en el principio de rendición de cuentas.",
+    other: "",
+    subtheme_id: 51,
+  },
+  {
+    title: "Existencia de un presupuesto plurianual",
+    description: "La ciudad tiene un presupuesto plurianual con al menos dos años de ingresos y gastos planificados y se utiliza para
+    establecer los futuros requisitos presupuestarios de los servicios existentes, evaluar las implicaciones de cambios
+    futuros de políticas y nuevos programas en términos de recursos, y asignar recursos dentro de restricciones fiscales.",
+    methodology: "• Paso 1: Proyecciones de ingresos totales. Determinación de techos fiscales y macroeconómicos consistentes con
+    la estabilidad macroeconómica y las prioridades de políticas (y la preparación de un documento de política fiscal).
+    • Paso 2: Alineación de políticas y objetivos bajo restricciones de recursos (de arriba hacia abajo). Techos sectoriales
+    plurianuales.
+    • Paso 3: Preparación de estrategias sectoriales plurianuales.
+    • Paso 4: Conexión de políticas, recursos y medios por sector (de abajo hacia arriba).
+    • Paso 5: Conciliación de las proyecciones con los recursos. Estimación de los costos de los programas existentes
+    bajo techos plurianuales, y luego nuevos programas y políticas.
+    • Distinción entre programas nuevos y existentes y proyección, en primer lugar, del costo de los programas
+    existentes (estimaciones de línea de base) para determinar si hay espacio fiscal disponible para introducir
+    nuevos programas.
+    • En un momento apropiado del proceso de preparación del presupuesto, se lleva a cabo una “revisión del gasto”
+    y se determina qué programas alcanzaron las metas y por qué, y se toman decisiones sobre su modificación,
+    expansión o eliminación (las “revisiones de gastos” también incluyen la posibilidad de evaluar un subgrupo de
+    programas cada año mediante metodologías más completas y rigurosas tales como análisis de costo-beneficio).
+    • Paso 6: Conciliación de la estrategia política con los recursos disponibles.",
+    positive: "La ciudad tiene un presupuesto
+    proyectado para los
+    próximos tres años.",
+    negative: "El presupuesto de la ciudad
+    es solo para un año.",
+    medium: "La ciudad tiene un presupuesto
+    proyectado para los
+    próximos dos años.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Un enfoque de mediano plazo para el presupuesto puede ayudar a mantener el control de los gastos, mejorar la eficiencia
+    y asistir en la respuesta a las prioridades. Esto comprende un sistema robusto de estimaciones adelantadas de gastos
+    que brinda a las dependencias cierta seguridad de que sus programas recibirán el financiamiento adecuado. Al reducir la
+    incertidumbre sobre el financiamiento anual, el proceso de preparación del presupuesto puede luego concentrarse más
+    en los cambios de políticas y mejorar la efectividad de los programas.
+    Basado en Arizti, P. et al. (2009), “Performance-Informed Budgeting in Latin America: Experiences and Opportunities”
+    (Banco Mundial).",
+    other: "Numerosos países trabajan ahora dentro de un marco de presupuestos plurianuales. El Banco Mundial ha estudiado el
+    marco presupuestario plurianual para Brasil, Chile, Colombia y México.",
+    subtheme_id: 52,
+  },
+  {
+    title: "Remuneracion del personal basada en un sistema de indicadores de desempeño",
+    description: "Los sueldos del personal se basan en parte en un sistema de indicadores de desempeño.",
+    methodology: "La remuneración basada en el desempeño consiste en un reconocimiento económico individual directamente asociado al
+    logro de objetivos. El reconocimiento puede tener lugar mediante ascensos, remuneración diferenciada y bonificaciones
+    anuales, entre otros estímulos.
+    Se debe distinguir la remuneración basada en el desempeño de los incentivos no monetarios individuales, ya que estos
+    últimos son mecanismos que consisten en el reconocimiento no económico individual directamente asociado al logro de
+    objetivos. El reconocimiento puede consistir, por ejemplo, en hacer notar los logros individuales de forma pública (dentro
+    de la institución).
+    Basado en BID (2012), PET-BL PRODEV Evaluation Tool Manual and Questionnaire for the Report on the New Baseline.",
+    positive: "La remuneración de por lo
+    menos un 40% del personal
+    incorpora los resultados de una
+    evaluación basada en un sistema
+    de indicadores de desempeño.",
+    negative: "La remuneración del personal
+    no se relaciona con un sistema
+    de indicadores de desempeño
+    o la remuneración de menos
+    del 10% del personal incorpora
+    los resultados de una evaluación
+    basada en un sistema de
+    indicadores de desempeño.",
+    medium: "La remuneración de entre
+    un 10% y un 40% del personal
+    incorpora los resultados de una
+    evaluación basada en un sistema
+    de indicadores de desempeño.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Los sistemas de remuneración basados en el desempeño ayudan a atraer y retener a los mejores trabajadores y a
+    incentivar un buen desempeño. También pueden contribuir a lograr una mayor transparencia y justicia en el sistema
+    remunerativo del gobierno.",
+    other: "La Oficina de Gestión de Personal de Estados Unidos (OPM, por sus siglas en inglés) analizó los sistemas de remuneración
+    basados en el desempeño del gobierno federal de forma sistemática en su informe anual, Alternative Personnel Systems
+    in the Federal Government: A Status Report on Demonstration Projects and Other Performance-Based Pay Systems del
+    año 2008. PRODEV utiliza “sistemas de remuneración y evaluación del personal que incentiva la obtención de resultados
+    organizacionales”.",
+    subtheme_id: 53,
+  },
+  {
+    title: "Existencia de sistemas electronicos para el seguimiento de la gestión municipal",
+    description: "Existen sistemas electrónicos instalados para hacer un seguimiento del cumplimiento de las metas y los objetivos de la
+    municipalidad.",
+    methodology: "Se debe preguntar a la gestión del gobierno municipal si existe algún sistema para hacer un seguimiento del cumplimiento
+    de las metas y los objetivos de la municipalidad. Si la respuesta es positiva, se debe hacer una descripción específica del
+    sistema.",
+    positive: "Existe un sistema electrónico que
+    mide el progreso y los resultados de
+    la gestión municipal.",
+    negative: "No existe un sistema de rendición
+    de cuentas que mida el progreso
+    ni los resultados de la gestión
+    municipal.",
+    medium: "Existe un sistema que mide el
+    progreso y los resultados de la
+    gestión municipal pero es manual.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"LHacer un seguimiento del progreso de la gestión municipal incrementa la transparencia y es uno de los primeros pasos
+    para el proceso de incentivación. Registrar y presentar el progreso de un municipio de forma electrónica hace más
+    eficiente el ingreso y la difusión de esta información.",
+    other: "",
+    subtheme_id: 53,
+  },
+  {
+    title: "Sistema electronico de adquisiciones",
+    description: "El gobierno municipal utiliza un sistema electrónico para llevar a cabo las adquisiciones y contrataciones.",
+    methodology: "No existe una metodología única. Depende de la legislación sobre contrataciones del país.
+    Por lo general, las municipalidades utilizan el sistema de contratación adoptado por el país.",
+    positive: "Existe un sistema electrónico de
+    contrataciones en línea abierto al
+    público y que, al menos, difunde
+    públicamente las solicitudes de
+    propuestas y los resultados de las
+    licitaciones públicas.",
+    negative: "El gobierno municipal no cuenta
+    con un sistema electrónico de
+    contrataciones.",
+    medium: "Existe un sistema electrónico
+    de contrataciones pero no
+    difunde los resultados de
+    las licitaciones públicas.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"E-procurement, es decir, el uso de tecnologías de la información y la comunicación (TIC) en las contrataciones públicas,
+    facilita el acceso a ofertas públicas e incrementa la competencia. También mejora la transparencia del ciclo de
+    contrataciones, lo que faculta a ciudadanos y empresas para responsabilizar más a las autoridades públicas. Además, el
+    uso de TIC en contrataciones públicas puede reducir las cargas administrativas y los costos tanto para gobiernos como
+    para empresas. Los canales electrónicos también pueden conducir a un ciclo de orden más corto e incrementar los niveles
+    de cumplimiento, y de esta manera ayudar potencialmente a disminuir los precios.
+    Basado en OCDE (2011), “E-procurement”, en Government at a Glance 2011.",
+    other: "OCDE (Encuesta sobre contrataciones públicas de 2010).",
+    subtheme_id: 53,
+  },
+  {
+    title: "Indice de transparencia",
+    description: "Puntaje por país extraído del Índice de Percepción de la Corrupción de Transparencia Internacional (TI) o puntaje
+    municipal extraído de un índice de transparencia nacional para municipalidades, si lo hubiere.",
+    methodology: "Cada año, en su Índice de Percepción de la Corrupción (CPI, por sus siglas en inglés), TI clasifica a los países según
+    la percepción del nivel de corrupción del sector público. Es un índice compuesto, con una combinación de encuestas
+    que extraen datos relacionados con hechos de corrupción recogidos por numerosas instituciones de buena reputación.
+    El CPI refleja las opiniones de observadores de todo el mundo, lo que incluye expertos que viven y trabajan en los países/
+    territorios evaluados. Para que se incluya un país/territorio en el CPI, debe haber como mínimo tres fuentes de datos
+    disponibles para dicho país.
+    La corrupción es el abuso del poder confiado a alguien para la obtención de un beneficio personal. Esta es la definición
+    de trabajo empleada por TI, y se aplica tanto a los sectores públicos como privados. El CPI se centra en la corrupción
+    del sector público, es decir, la corrupción que involucra a funcionarios públicos, empleados públicos o políticos. Las
+    fuentes de datos que se utilizan para confeccionar el índice incluyen preguntas relacionadas con el abuso del poder
+    público y se focalizan en sobornos a funcionarios públicos, sobornos para contrataciones públicas y malversación de
+    fondos públicos, y en preguntas tendientes a investigar la fortaleza y eficacia de los esfuerzos contra la corrupción en
+    el sector público. Como tal, el índice cubre tanto los aspectos administrativos como políticos de la corrupción. Cuando
+    se confecciona el índice, se combinan los puntajes obtenidos de las fuentes de datos para los países/territorios (según
+    preguntas específicas relacionadas con la corrupción) y se calcula un puntaje único para cada país.
+    El CPI del año 2011 utilizó 17 fuentes de datos de 13 instituciones. La información empleada para el CPI de 2011 abarca los
+    datos de encuestas de esas fuentes reunidos entre diciembre de 2009 y septiembre de 2011. El CPI incluye únicamente
+    fuentes que proporcionen un puntaje para un grupo de países/territorios y que midan la percepción de la corrupción en
+    el sector público. TI se asegura de que las fuentes empleadas sean de la más alta confianza. Para calificar, el método de
+    recolección de datos debe estar bien documentado y la metodología debe publicarse para permitir una evaluación de su
+    confiabilidad. Una lista completa de fuentes de datos, preguntas frecuentes y el tipo de entrevistados para cada país/
+    territorio se encuentra disponible en el documento de descripción de fuentes del CPI.
+    El puntaje de un país/territorio indica el nivel percibido de corrupción en el sector público de ese país en una escala
+    de 0 a 10, en la que 0 significa que se percibe al país como muy corrupto y 10 significa que se percibe al país como
+    muy transparente. La ubicación de un país en el índice muestra su posición en relación con los demás países/territorios
+    incluidos en el índice. Es importante tener en cuenta que la posición de un país puede cambiar simplemente por el ingreso
+    de nuevos países al índice o la salida de otros.
+    En algunos países existen índices de transparencia por municipalidad que miden la transparencia o corrupción a nivel
+    municipal. Estos pueden emplearse en lugar del Índice de Percepción de la Corrupción de TI o como complemento de
+    este. Esto puede resultar especialmente útil si se recolectan los datos en ciudades comparables dentro del mismo país.",
+    positive: "> 6",
+    negative: "< 3",
+    medium: "3,0–6,0.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Generalmente, la corrupción comprende actividades ilegales que salen a la luz fundamentalmente debido a escándalos,
+    investigaciones o procedimientos legales. Por ello, es difícil determinar los niveles absolutos de corrupción en países
+    o territorios sobre la base de datos empíricos irrefutables. Mecanismos que tienen ese fin, como la comparación de
+    sobornos denunciados, el número de procedimientos legales iniciados o los casos judiciales directamente asociados con
+    hechos de corrupción, no pueden tomarse como indicadores definitivos de los niveles de corrupción. En lugar de ello,
+    estos mecanismos demuestran la efectividad de los fiscales, tribunales o medios de prensa para investigar y exponer los
+    hechos de corrupción. Un método confiable de compilar datos comparables de países consiste en tomar las percepciones
+    de aquellas personas que estén en condiciones de ofrecer evaluaciones de corrupción en el sector público de un país
+    determinado.
+    Basado en el Índice de Percepción de la Corrupción de TI, (disponible en http://www.transparency.org/cpi2011/in_detail).",
+    other: "TI informa anualmente el puntaje para cada uno de los países prestatarios del BID, excepto Belice. La sección de TI en
+    Colombia, Transparencia Por Colombia, cuenta con un índice de transparencia a nivel municipal. Transparencia Venezuela
+    también tiene un sistema indicador de transparencia municipal (SITM, Sistema de Indicadores de Transparencia Municipal).
+    USAID ha preparado un índice de transparencia a nivel municipal para los municipios de El Salvador. La sección mexicana
+    de TI, Transparencia Mexicana, ha creado un índice de la buena gobernabilidad y corrupción a nivel estadual. Associação
+    de Contas Abertas en Brasil también cuenta con un índice de transparencia a nivel estadual.",
+    subtheme_id: 54,
+  },
+  {
+    title: "Porcentaje de cuentas de la municipalad que son auditas",
+    description: "Numerador: cantidad de cuentas del gobierno municipal que se auditan independientemente del grupo interno de
+    auditores. Denominador: cantidad total de cuentas del gobierno municipal.",
+    methodology: "El porcentaje de cuentas auditadas del gobierno municipal se determina mediante la división de la cantidad de cuentas
+    del gobierno municipal auditadas independientemente del grupo de auditores internos por la cantidad total de cuentas
+    del gobierno municipal.
+    La entidad fiscalizadora superior de cada país puede contar con esta información.",
+    positive: "Está auditado más del 50% de las
+    cuentas del gobierno municipal",
+    negative: "Está auditado menos del 30% de las
+    cuentas del gobierno municipal",
+    medium: "Está auditado del 30% al 50% de
+    las cuentas del gobierno municipal",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"En las auditorías se obtienen rendiciones de cuentas e información transparente esencial sobre programas de gobierno.
+    Las auditorías de gobierno proporcionan el análisis y la información objetiva que se requiere para tomar las decisiones
+    necesarias con el fin de ayudar a lograr un mejor futuro. El concepto de rendición de cuentas para el uso de los recursos
+    públicos y la autoridad gubernamental es clave para los procesos de gobierno democrático. Las auditorías de gobierno
+    son esenciales para rendir cuentas a legisladores, organismos de supervisión, autoridades de gobierno y el público en
+    general. En virtud de su tipo y alcance, las auditorías ofrecen una evaluación independiente, objetiva y no partidaria de la
+    administración, el desempeño, o el costo de las políticas, los programas o las operaciones de gobierno.
+    Basado en la Oficina de Rendición de Cuentas de Gobierno de Estados Unidos (2011), Government Auditing Standards
+    (disponible en http://www.gao.gov/assets/590/587281.pdf).",
+    other: "Este indicador es muy común en la gestión financiera pública. Véase la herramienta subnacional en www.pefa.org.",
+    subtheme_id: 54,
+  },
+  {
+    title: "Porcentaje de empresas municipales cuya cuentas son auditadas por un tercero",
+    description: "Numerador: cantidad de empresas municipales cuyas cuentas son auditadas por terceros externos e independientes.
+    Denominador: cantidad total de empresas municipales.",
+    methodology: "El porcentaje de empresas municipales cuyas cuentas son auditadas por un tercero se determina mediante la división de
+    la cantidad de empresas municipales cuyas cuentas son auditadas por terceros externos e independientes por la cantidad
+    total de empresas municipales.
+    Todas las municipalidades deben saber qué empresas municipales someten sus cuentas a auditorías efectuadas por
+    terceros.",
+    positive: "Del 80% al 100%
+    de las empresas municipales es
+    auditado por una organización
+    privada independiente.",
+    negative: "Menos del 50%
+    de las empresas municipales
+    es auditado.",
+    medium: "Del 80% al 100% de las empresas
+    municipales es auditado, aunque
+    no por una organización privada
+    independiente, o bien entre
+    el 50% y el 80% de las empresas
+    municipales es auditado por una
+    organización privada independiente.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"En las auditorías se obtienen rendiciones de cuentas e información transparente esencial sobre programas de gobierno.
+    Las auditorías de gobierno proporcionan el análisis y la información objetiva que se requiere para tomar las decisiones
+    necesarias con el fin de ayudar a lograr un mejor futuro. El concepto de rendición de cuentas para el uso de los recursos
+    públicos y la autoridad gubernamental es clave para los procesos de gobierno democrático. Las auditorías de gobierno
+    son esenciales para rendir cuentas a legisladores, organismos de supervisión, autoridades de gobierno y el público en
+    general. En virtud de su tipo y alcance, las auditorías ofrecen una evaluación independiente, objetiva y no partidaria de la
+    administración, el desempeño, o el costo de las políticas, los programas o las operaciones de gobierno.
+    Basado en la Oficina de Rendición de Cuentas de Gobierno de los Estados Unidos (2011), Government Auditing Standards
+    (disponible en http://www.gao.gov/assets/590/587281.pdf).",
+    other: "",
+    subtheme_id: 55,
+  },
+  {
+    title: "Ingresos propios como porcentaje de los ingresos totales",
+    description: "Porcentaje de los ingresos del gobierno local que se originan en tarifas, multas e impuestos permitidos por la ley respecto
+    de la totalidad de los ingresos, incluidos aquellos proporcionados por otros niveles de gobierno. Esto solo incluye
+    ingresos operativos o recurrentes determinados a través de métodos tales como pagos a partir de fórmulas (por ejemplo,
+    la repatriación del impuesto a las ganancias), donaciones otorgadas desde niveles más altos de gobierno (incluidos los
+    gobiernos nacionales o estaduales) y otros tipo de transferencias financieras que pueden estar vinculadas a la prestación
+    de servicios específicos.",
+    methodology: "El monto total de los fondos obtenidos a través de aranceles por permisos, tarifas de usuario por servicios urbanos
+    e impuestos recaudados únicamente con fines municipales, divididos por todos los ingresos operativos o recurrentes,
+    incluidos aquellos transferidos a la ciudad por otros niveles de gobierno, multiplicado por 100.
+    Basado en la descripción del indicador de GCIF “Ingresos propios como porcentaje de ingresos totales”.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Inferior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades
+    pares en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"En un nivel muy básico, este indicador mide el grado en que la ciudad depende de los ingresos proporcionados por otros
+    niveles de gobierno para prestar sus servicios al público.
+    La diferencia entre sus propios ingresos y las transferencias de niveles de gobierno superiores ofrece una indicación
+    de la viabilidad, la independencia y el control de una ciudad sobre sus propios recursos y, en alguna medida, mide su
+    planificación financiera y su efectividad de gestión.
+    Basado en la descripción del indicador de GCIF “Ingresos propios como porcentaje de ingresos totales”.",
+    other: "GCIF; Índice de Gobernabilidad Urbana de UN-Habitat (UGI, por sus siglas en inglés).",
+    subtheme_id: 55,
+  },
+  {
+    title: "Transferencias totales como porcentaje de los ingresos totales",
+    description: "Transferencias totales de otros niveles de gobierno como porcentaje de los ingresos totales",
+    methodology: "El indicador representa los recursos que el gobierno local recibe de otros niveles de gobierno (regional/provincial/
+    estadual/nacional/federal) para determinar su participación en los ingresos totales del gobierno local. En algunos casos,
+    las transferencias tienen usos específicos asignados. Esta estimación incluye todas las transferencias sin considerar si
+    tienen o no usos específicos asignados.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Inferior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades
+    pares en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Las municipalidades tienden a tener mayor autonomía en la medida en que dependen menos de la obtención de
+    transferencias. Además, numerosas municipalidades de América Latina y el Caribe tienen gastos cada vez mayores,
+    aunque no incrementan, en la misma medida, las recaudaciones que generan. Por ello, este tipo de transferencias cubre
+    la brecha resultante. Esto da lugar a problemas de sostenibilidad.
+    Basado en BID (s/f), Ingresos Municipales en Centroamérica.",
+    other: "El Departamento Nacional de Planeación de Colombia; el Estado de Connecticut (“Municipal Fiscal Indicators”): ingresos
+    intergubernamentales; el Departamento de Servicios Legislativos de Maryland (“County and Municipal Revenue Sources”):
+    ingresos intergubernamentales (subsidios federales, subsidios estaduales y otros subsidios); Canadian Tax Foundation
+    (Kitchen, H., “Canadian Municipalities: Fiscal Trends and Sustainability”): subsidios (condicionales e incondicionales).",
+    subtheme_id: 55,
+  },
+  {
+    title: "Transferencias con usos específicos asignados como porcentaje de las transferencias totales",
+    description: "Transferencias con usos específicos asignados como porcentaje de las transferencias totales.",
+    methodology: "Las transferencias que solo pueden utilizarse bajo las condiciones establecidas por el gobierno nacional u otros niveles de
+    gobierno (además del municipal) deben identificarse a través de las reglamentaciones actuales de cada país. El indicador
+    se calcula dividiendo las transferencias condicionales por el total de las transferencias recibidas, y multiplicando el
+    resultado por 100.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Inferior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades
+    pares en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Las transferencias con usos específicos asignados limitan la autonomía y capacidad de una municipalidad de establecer
+    prioridades, especialmente en municipalidades que dependen fuertemente de esas transferencias. Debido a las directivas
+    nacionales, en muchos casos las transferencias se destinan a sectores preestablecidos, lo que limita la autonomía del
+    gobierno local en decisiones sobre el uso de estos recursos. Esto restringe las posibilidades de los gobiernos locales de
+    invertir en servicios públicos e infraestructura en su localidad. Este indicador intenta medir la autonomía que los líderes
+    locales tienen en la gestión de los recursos transferidos.",
+    other: "Canadian Tax Foundation (Kitchen, H., “Canadian Municipalities: Fiscal Trends and Sustainability”): subsidios (condicionales
+    e incondicionales).",
+    subtheme_id: 55,
+  },
+  {
+    title: "Ingresos de otras fuentes (donantes externos) como porcentaje de los ingresos totales",
+    description: "Ingresos por fuente: Otros (donantes externos)/Ingresos totales.",
+    methodology: "Los ingresos de los donantes externos se identifican al ver la información fiscal del municipio, sumando todos los
+    ingresos obtenidos en un año de fuentes diferentes a las fuentes de ingresos propios del municipio y transferencias de
+    otros niveles de gobierno dentro del país (nacional, estatal, etc.) y dividiendo esta cifra por los ingresos totales del
+    municipio para ese año.",
+    positive: "Similar a las ciudades ejemplares
+    (ciudades con las mejores
+    prácticas del país)",
+    negative: "Similar a las ciudades
+    pares en el país",
+    medium: "Superior en comparación
+    con las ciudades pares",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Las municipalidades tienden a tener mayor autonomía en la medida en que dependen menos de transferencias y donantes.",
+    other: "El Banco Mundial utiliza subsidios y otras fuentes de ingresos como indicadores del sector público a nivel nacional.",
+    subtheme_id: 55,
+  },
+  {
+    title: "Recuperacion de costos de empresas de presentacion de servicios publicos",
+    description: "Porcentaje del costo de la prestación de servicios públicos (provistos a través de la municipalidad o empresas municipales)
+    que es recuperado a través de tarifas que se cobran a los consumidores (por agua, sistema de alcantarillado, recolección
+    de residuos sólidos, electricidad).",
+    methodology: "Para la estimación de este indicador, se deben identificar en primer lugar aquellos servicios que son prestados por la
+    municipalidad, ya sea directamente o a través de empresas municipales constituidas para tal fin. Una vez identificado
+    esto, se debe proceder a determinar cuánto cuesta la provisión del servicio (gastos operativos, que abarcan: personal,
+    operación de equipos, vehículos, alquileres, etc.) y, en caso de que se cobre alguna tarifa por la prestación del servicio,
+    cuánto recibe la municipalidad o a la empresa municipal por este concepto. Luego se dividen el costo sobre el recaudo y
+    esta cifra se multiplica por 100.",
+    positive: "> 90%",
+    negative: "> 50%",
+    medium: "> 50% y < 90%",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"La recuperación del costo de la prestación de servicios públicos indica la sostenibilidad fiscal de la prestación de dichos
+    servicios. Esto proporciona la base fiscal para la expansión y las mejoras de servicios adicionales, lo que en algunos
+    casos puede resultar clave para brindar acceso a las personas que actualmente carecen del servicio o que reciben un
+    servicio de mala calidad.",
+    other: "",
+    subtheme_id: 56,
+  },
+  {
+    title: "Impuestos recaudados como porcentaje de los impuestos facturados",
+    description: "La relación entre los impuestos recaudados sobre el total de impuestos facturados.",
+    methodology: "Se identifican todos los ingresos generados por la recaudación de impuestos, se dividen por el monto de impuestos
+    facturados, y esta cifra se multiplica por 100.
+    Basado en la descripción del indicador de GCIF “Own-source revenue as a percent of total revenues”.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Inferior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades
+    pares en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"La recaudación de impuestos es la fuente principal de ingresos para todos los niveles de gobierno, incluidas las ciudades.
+    Este indicador mide la efectividad de los organismos recaudadores de impuestos y tiene por objetivo mensurar la
+    efectividad de la capacidad de gestión financiera de una ciudad. En alguna medida, también demuestra la voluntad de los
+    ciudadanos de pagar sus impuestos.
+    Basado en la descripción del indicador de GCIF “Ingresos propios como porcentaje de los ingresos totales”.",
+    other: "GCIF; el Estado de Connecticut (“Indicadores Fiscales Municipales”); el UGI de UN-Habitat utiliza un indicador similar
+    denominado porcentaje de ingresos locales obligatorios efectivamente recaudados por el gobierno local.
+    Basado en la descripción del indicador de GCIF “Own-source revenue as a percent of total revenues”.",
+    subtheme_id: 56,
+  },
+  {
+    title: "Impuestos de desempeño y metas para el seguimiento de la ejecucíon del presupuesto",
+    description: "Existencia de indicadores de desempeño y metas para el seguimiento de la ejecución del presupuesto",
+    methodology: "Se debe verificar la siguiente información: si existen indicadores de desempeño y metas para el seguimiento del
+    presupuesto, si se les monitorea de forma periódica, y si los resultados se incorporan al presupuesto del año siguiente.",
+    positive: "Existen indicadores de desempeño
+    y metas con monitoreos periódicos,
+    y los resultados se incorporan en
+    el siguiente presupuesto.",
+    negative: "No existen indicadores de
+    desempeño ni metas para
+    monitorear el presupuesto.",
+    medium: "Existen indicadores de desempeño
+    y metas, pero sin monitoreos
+    periódicos, o los resultados no
+    se incorporan en el siguiente
+    presupuesto.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Un sistema de indicadores y metas para acompañar al presupuesto ayuda a garantizar que el dinero se gaste de forma tal
+    que produzca los resultados deseados. Además, provee transparencia y responsabilidad al proceso de preparación de un
+    presupuesto y permite una asignación de recursos más efectiva.",
+    other: "Dipres de Chile (véase dipres.cl).
+    Secretaría de Hacienda y Crédito Público de México (SHCP) (véase shcp.gob.mx).",
+    subtheme_id: 57,
+  },
+  {
+    title: "Gasto corriente como porcentaje del gasto total",
+    description: "El gasto corriente total durante el año anterior (el numerador) dividido por el gasto total incurrido por la ciudad durante
+    el mismo período expresado como un porcentaje.",
+    methodology: "Este indicador debe incluir gastos operativos; es decir, gastos continuos. Esto debe dividirse por el gasto presupuestado
+    total y multiplicarse por 100. Las cifras utilizadas para este cálculo deben tomarse directamente de los estados financieros
+    auditados de la ciudad sin enmiendas ni modificaciones.
+    Basado en la descripción del indicador de GCIF “Capital spending as percentage of total expenditures”.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Superior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades pares
+    en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Una ciudad que gasta una gran parte de su presupuesto en costos operativos puede carecer de la capacidad financiera
+    para invertir en formas que apoyarían su crecimiento y desarrollo futuro. Sin embargo, el análisis debe considerar las
+    particularidades de cada país. En algunos casos, las competencias asignadas a los gobiernos locales pueden involucrar
+    una serie de gastos operativos para su correcta ejecución (por ejemplo, la recolección de basura). En muchos países de
+    la región, las competencias locales en inversiones en capital son limitadas y, por lo tanto, los gastos operativos tienden
+    a ser altos. Si el gasto corriente como porcentaje del gasto total del municipio es alto en comparación con el de las
+    ciudades pares, se requerirá una revisión detallada de los distintos rubros del gasto operativo para determinar posibles
+    deficiencias.",
+    other: "GCIF utiliza el gasto de capital como porcentaje del gasto total.",
+    subtheme_id: 57,
+  },
+  {
+    title: "Gasto de capital como porcentaje del gasto total",
+    description: "El gasto total sobre activos fijos del año anterior (el numerador) dividido por el gasto total de la ciudad durante el mismo
+    período, expresado como un porcentaje.",
+    methodology: "Se utilizan los gastos anuales sobre activos fijos y esta cifra se divide por el gasto total (operativo y de capital) de la
+    ciudad de ese mismo período.
+    No se espera que los activos fijos se consuman o conviertan en efectivo en el transcurso normal de los negocios. Se
+    trata de bienes de largo plazo, más permanentes o “fijos”, como terrenos, edificios, equipos, instalaciones, mobiliario y
+    mejoras a bienes en locación.
+    Las cifras utilizadas para este cálculo deben tomarse directamente de los estados contables auditados de la ciudad sin
+    enmiendas ni modificaciones.
+    Este indicador debe considerarse junto con el indicador Coeficiente del Servicio de la Deuda para comprender la
+    capacidad de la ciudad de mantener su gasto de capital. El nivel de gasto de capital con relación al gasto recurrente puede
+    reflejar la capacidad financiera de la ciudad de invertir en bienes de capital necesarios para respaldar su crecimiento y
+    desarrollo futuros.
+    Basado en la descripción del indicador de GCIF “Gasto de capital como porcentaje del gasto total”.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Superior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades pares
+    en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"El monto del gasto de capital de la ciudad expresado como porcentaje del gasto total anual de la ciudad es un indicador de
+    la capacidad que tiene una ciudad para atender las demandas de sus ciudadanos en servicios públicos e infraestructura.
+    Nuevamente, es importante evaluar este indicador dentro del contexto de cada país, pues en muchos países de la región
+    las municipalidades no tienen competencias en inversión en capital, ya que esto tiende a ser responsabilidad de un nivel
+    superior de gobierno (provincia, estado, departamento o nación).",
+    other: "GCIF.",
+    subtheme_id: 57,
+  },
+  {
+    title: "Tasa de crecimiento anual del gasto corriente",
+    description: "Tasa promedio de crecimiento anual de los gastos operativos de los últimos cinco años.",
+    methodology: "A partir de los gastos operativos de los cinco años previos, se estima la tasa de crecimiento promedio. Para ello, se calcula
+    la tasa de crecimiento año por año y luego se promedian los resultados. La tasa de crecimiento se estima a partir del
+    crecimiento absoluto en gastos operativos entre dos años, dividiendo por el valor del gasto operativo en el año inicial, y
+    se multiplica por 100. En caso de que no exista información disponible para cinco años, se determinará un promedio del
+    periodo disponible.",
+    positive: "Similar a lo ejemplar (ciudades con
+    las mejores prácticas del país)",
+    negative: "Superior en comparación con
+    ciudades pares",
+    medium: "Similar a ciudades pares
+    en el país",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Los gastos operativos crecientes pueden llevar a problemas fiscales futuros. No basta con mirar el nivel absoluto o
+    relativo de los gastos operativos, sino que se requiere examinar la tendencia que muestra este rubro en el tiempo. Ello
+    permite identificar si lo observado en el indicador anterior es fruto de determinada coyuntura o si es el resultado de una
+    tendencia persistente en el gasto.",
+    other: "",
+    subtheme_id: 57,
+  },
+  {
+    title: "Alineación del presupuesto con el plan",
+    description: "Determinar si el presupuesto de la ciudad incluye los objetivos de su plan de desarrollo con indicadores de resultados.",
+    methodology: "Un primer nivel de alineación es el de los programas. Los programas de cada uno de los instrumentos, el plan y el
+    presupuesto, deben ser los mismos.
+    Un segundo nivel de alineación es el de los proyectos. Los proyectos de cada uno de los instrumentos, el plan y el
+    presupuesto, deben ser los mismos. Si esta información no está disponible a nivel del proyecto, este nivel no se considera.
+    Un tercer nivel de alineación es el de los objetivos de los programas. Los del plan de la ciudad deben coincidir y ser los
+    mismos que los objetivos de los programas que financia el presupuesto municipal.",
+    positive: "Más del 70% de los programas
+    del presupuesto de la ciudad
+    coincide con los del plan de
+    desarrollo o del gobierno.",
+    negative: "Menos del 30% de los programas
+    del presupuesto coincide con los
+    del plan de desarrollo, o bien
+    no existe tal plan.",
+    medium: "De un 30% a un 70% de los
+    programas del presupuesto coincide
+    con el plan de desarrollo.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"Un presupuesto estrechamente alineado con el plan de la ciudad indica que se están implementando las metas establecidas
+    por la ciudad y que estas están recibiendo apoyo financiero.",
+    other: "Gobiernos subnacionales en Brasil.",
+    subtheme_id: 57,
+  },
+  {
+    title: "Pasivos contingentes como porcentaje de los ingresos propios",
+    description: "Total de pasivos contingentes exigibles en los próximos cinco años como porcentaje de los ingresos propios en el mismo
+    período.",
+    methodology: "Los pasivos contingentes son pasivos en los que puede o no puede incurrir una entidad en función del resultado de un hecho
+    futuro, como es el caso de un juicio. Si bien estos pasivos deben de registrarse en las cuentas del gobierno y señalarse en
+    el balance general, esta no es una práctica común en América Latina y el Caribe. Como resultado, los gobiernos locales de
+    la región podrían enfrentarse a posibles tensiones fiscales y ni el gobierno local ni el gobierno nacional son conscientes
+    de su verdadera situación fiscal debido a los pasivos contingentes. Para conocer los pasivos contingentes de un gobierno
+    local, se debe revisar si están siendo reportados dentro de los pasivos o, en el caso de aquellos que no estén siendo
+    reportados, determinar cuáles podrían representar un problema serio en el corto y mediano plazo. Es importante también
+    verificar el período de exigibilidad de dichos pasivos. Para determinar su importancia relativa, se debe comparar el
+    monto de los pasivos contingentes exigibles en los próximos cinco años, dividirlo por los ingresos propios en ese período
+    y multiplicarlo por 100. Ingresos propios son los ingresos totales menos las transferencias.",
+    positive: "> 90%",
     negative: "< 75%",
     medium: "75%–90%",
-    unit: "%",
-    value: "98.5",
+    unit: "",
+    value: "",
     rate: nil,
-    result: "Positivo",
-    justification: "El suministro de agua limpia es absolutamente necesario para la vida y la salud; sin embargo, muchas personas no tienen\r\nacceso a un suministro de agua adecuado o solo pueden obtenerlo a precios elevados. En muchas ciudades, los hogares\r\nde los asentamientos informales rara vez se encuentran conectadas a la red y solo pueden obtener agua de proveedores\r\na un precio 200 veces más alto que el del agua de la red. Mejorar el acceso al agua potable implica una menor carga para\r\nlas personas, sobre todo las mujeres, para recoger agua. También significa una reducción en la carga global asociada con\r\nlas enfermedades relacionadas con el agua y una mejora en la calidad de vida.\r\nEste indicador supervisa el acceso a la red de agua de la ciudad sobre la base de la suposición de que es posible que\r\nsuministre agua potable. El consumo de agua contaminada es la causa directa de muchas enfermedades en países en\r\ndesarrollo.\r\nBasado en el documento de trabajo de la Administración de Recursos Ambientales (ERM, por sus siglas en inglés) de 2006:\r\nThe Current Status of City Indicators Annexes: Indicator 4 “Access to safe water” ",
-    other: "Similar al “Porcentaje de la población de la ciudad con servicio de suministro de agua potable” y “Porcentaje de la\r\npoblación de la ciudad con acceso sostenible a una mejor fuente de agua” del Programa Global para los Indicadores\r\nUrbanos (GCIF, por sus siglas en inglés)",
-    subtheme_id: 1,
+    result: "",
+    justification:"En muchos casos los principales riesgos de la gestión fiscal de una ciudad surgen de los llamados pasivos contingentes;
+    es decir, aquellos pasivos que no necesariamente aparecen en el balance del gobierno municipal porque no son exigibles
+    en un corto plazo pero que podrían ser un riesgo en caso de que se hagan realidad. Dentro de estos pasivos se encuentran
+    las obligaciones pensionales que tenga a su cargo el gobierno municipal o la posible quiebra que implicaría el mal manejo
+    de una empresa del orden municipal.",
+    other: "El estado de Connecticut registra información sobre obligaciones de pensiones junto con pasivos actuariales acumuladas
+    (AAL, por sus siglas en inglés), porcentaje de AAL financiado, y porcentaje de la contribución realizada para los planes de
+    pensión de beneficios definidos para las municipalidades de Connecticut.",
+    subtheme_id: 58,
   },
-
+  {
+    title: "Coeficiente del servicio de la deuda",
+    description: "El coeficiente del servicio de la deuda es el coeficiente de los gastos del servicio de la deuda como porcentaje de los
+    ingresos propios de una municipalidad. Un número bajo puede indicar la creciente capacidad de una municipalidad de
+    solicitar préstamos o la decisión de esta de limitar su deuda para permitir el financiamiento de otras áreas de servicio.",
+    methodology: "El coeficiente del servicio de la deuda se calcula dividiendo los costos totales del servicio de la deuda a largo plazo,
+    incluidos los pagos de locaciones, el financiamiento temporero y otros cargos de la deuda por los ingresos propios totales.
+    Los ingresos propios totales están constituidos por los ingresos totales menos las transferencias.
+    Se debe tener cuidado al evaluar este indicador. Un coeficiente de servicio de la deuda alto puede significar que una
+    municipalidad ha contraído muchas deudas pero también puede implicar que ha tomado una postura agresiva con respecto
+    a su pago y que las está cancelando de forma rápida. De manera análoga, un coeficiente del servicio de la deuda bajo
+    puede significar que una municipalidad es financieramente fuerte y puede financiar la mayoría de los proyectos de capital
+    a través de su presupuesto operativo. Por otra parte, también puede indicar que una municipalidad es financieramente
+    más débil y ha diferido proyectos de capital, permitiendo así el deterioro de importantes infraestructuras.
+    Basado en la descripción del indicador de GCIF “Debt service ratio”.",
+    positive: "< 10%",
+    negative: "> 20%",
+    medium: "10%–20%",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"El propósito de este indicador es evaluar la sostenibilidad del endeudamiento vigente en una ciudad. Esa capacidad de
+    endeudamiento se evalúa en función de la capacidad de pago que tiene la ciudad para cubrir la amortización de capital
+    y los intereses de la deuda contraída. La capacidad de pago se aproxima a través de los ingresos propios que tiene
+    una municipalidad; es decir, aquellos de los que dispone con libertad. En algunos países con reglas de endeudamiento
+    municipal definidas, este indicador debe analizarse teniendo en cuenta la reglamentación vigente en esta materia.",
+    other: "GCIF; la Asociación de Funcionarios Financieros de Gobierno (GFOA, por sus siglas en inglés) apoya esta medida como
+    parte de sus buenas prácticas presupuestarias recomendadas. El coeficiente del servicio de la deuda es también un
+    indicador clave para las agencias calificadoras de bonos que evalúan la calificación crediticia de una municipalidad. De
+    acuerdo con el nivel del gobierno que provee los servicios de instalaciones de agua potable/tratamiento de aguas servidas
+    o transporte público (un servicio con un alto costo de capital), el tamaño de la deuda puede ser significativamente mayor
+    o menor si se comparan municipalidades de tamaños similares.
+    Basado en la descripción del indicador de GCIF “Coeficiente del servicio de la deuda”.",
+    subtheme_id: 59,
+  },
+  {
+    title: "Crecimiento de la deuda",
+    description: "Tasa anual de crecimiento promedio de la deuda en los últimos tres años.",
+    methodology: "Se identifica la deuda financiera y no financiera que la ciudad ha contraído en los últimos tres años. A partir de estos
+valores, se calcula la tasa anual de crecimiento entre los años considerados. Luego se promedian estas cifras para obtener
+la tasa de crecimiento promedio para el período.",
+    positive: "El crecimiento real anual es
+negativo.",
+    negative: "El crecimiento real anual
+es superior al 2%.",
+    medium: "El crecimiento real anual se ubica
+entre el 0% y el 2%.",
+    unit: "",
+    value: "",
+    rate: nil,
+    result: "",
+    justification:"En muchos casos se requiere no solo la revisión del nivel de la deuda, sino también examinar la tendencia en su
+comportamiento. El propósito es determinar si hay una tendencia expansiva en el crecimiento del endeudamiento de la
+ciudad o si, por el contrario, el crecimiento del endeudamiento muestra una tendencia sostenible en el tiempo.",
+    other: "",
+    subtheme_id: 59,
+  },
 ]

@@ -125,16 +125,58 @@
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
           <% elsif @indicator.id == 32 %>
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
-           <% elsif @indicator.id == 33 %>
+          <% elsif @indicator.id == 33 %>
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
-           <% elsif @indicator.id == 34 %>
+          <% elsif @indicator.id == 34 %>
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
-           <% elsif @indicator.id == 35 %>
+          <% elsif @indicator.id == 35 %>
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
           <% elsif @indicator.id == 36 %>
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
           <% elsif @indicator.id == 38 %>
           <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
+          <% elsif @indicator.id == 42 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 26} %>
+          <% x2 = @indicator.statistics.select { |x| x['id'] == 27} %>
+          <% x = (x1[0].value /  x2[0].value ) * 100 %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 43 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 28} %>
+          <% x2 = @indicator.statistics.select { |x| x['id'] == 2} %>
+          <% x = (x1[0].value /  x2[0].value ) * 100 %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 45 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 29} %>
+          <% x = (x1[0].value /  100000 ) %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 46 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 30} %>
+          <% x = (x1[0].value /  100000 ) %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 47 %>
+          <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
+           <% elsif @indicator.id == 48 %>
+          <p class="text-center" style="font-size: 40px;"><%= @indicator.result %></p>
+          <% elsif @indicator.id == 49 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 31} %>
+          <% x2 = @indicator.statistics.select { |x| x['id'] == 32} %>
+          <% x3 = @indicator.statistics.select { |x| x['id'] == 24} %>
+          <% x = ((x1[0].value - x2[0].value ) / x3[0].value ) * 100  %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 50 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 33} %>
+          <% x2 = @indicator.statistics.select { |x| x['id'] == 2} %>
+          <% x = (x1[0].value / x2[0].value ) * 100  %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 58 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 34} %>
+          <% x = (x1[0].value / 100000 ) %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
+          <% elsif @indicator.id == 60 %>
+          <% x1 = @indicator.statistics.select { |x| x['id'] == 35} %>
+          <% x2 = @indicator.statistics.select { |x| x['id'] == 24} %>
+          <% x = (x1[0].value / x2[0].value ) * 100  %>
+          <p class="text-center" style="font-size: 40px;"><%= x.round(2) %> % </p>
           <% else %>
           <div class="text-center">
             <p>On development</p>
@@ -190,7 +232,10 @@
       </p>
     </div>
   </div>
-</div>
+  </div>
+ <% if user_signed_in? %>
+  <p><%= link_to 'Edit', edit_indicator_path(@indicator) %></p>
+  <% end %>
 </div>
 
 

@@ -1,139 +1,136 @@
-statistics_attributes = [
-  #Indicador 1,
+statistic_attributes1 = [
+
+  #indicador 42,
   {
-    title: "Numero de hogares con conectados a la red de agua",
-    value: 80085.00,,
-  },
-  {
-    title: "Total de hogares",
-    value: 80085.00,,
-  },
-  #Indicador 2,
-  {
-    title: "Metros cúbicos de agua facturada en un periodo",
-    value: 80085.00,,
-  },
-  {
-    title: "Población total relacionada con las viviendas facturadas por agua",
-    value: 80085.00,,
-  },
-  #Indicador 3,
-  #indicador 4,
-  #indicador 5,
-  {
-    title: "Volumen total de agua suministrada",
+    title: "Cantidad de personas en el area urbana",
     value: 80085.00,
   },
   {
-    title: "Volumen total de agua facturada",
+    title: "Area urbana total del municipio",
     value: 80085.00,
   },
-  #indicador 7,
+  #indicador 43,
   {
-    title: "Numero de hogares con conectados a la red de alcantarillado",
+    title: "Cantidad de viviendas que no cumplen con los estandares",
     value: 80085.00,
   },
-  #indicador 8,
+  #indicador 44,
+  #indicador 45,
   {
-    title: "Total de agua recidual trata",
+    title: "Areas total de espacios verdes",
+    value: 80085.00,
+  },
+  #indicador 46,
+  {
+    title: "Areas total de espacios publicos recreativos",
+    value: 80085.00,
+  },
+  #indicador 47 T,
+  #indicador 48 T,
+  #indicador 49,
+  {
+    title: "Hogares por debajo de la linea de la linea de pobreza",
     value: 80085.00,
   },
   {
-    title: "Total de agua consumida",
+    title: "Promedio de personas por hogar en la ciudad",
     value: 80085.00,
   },
-   #indicador 9,
+  #indicador 50,
+  {
+    title: "Viviendas en asentamientos informales",
+    value: 80085.00,
+  },
+  #indicador 51,
+  #indicador 52,
+  #indicador 53,
+  #indicador 54,
+  #indicador 55,
+  #indicador 56,
+  #indicador 57,
+  #indicador 58,
+  {
+    title: "Cifra anual de victimas mortales en accidentes de trafico",
+    value: 80085.00,
+  },
+  #indicador 59,
+  #indicador 60,
+  {
+    title: "Total de automoviles registrados",
+    value: 80085.00,
+  },
+  #indicador 61,
+  #indicador 62,
+}
+]
+
+Statistic.create!(statistic_attributes1)
+puts '6 done!'
+
+formula_attributes1 = [
+   #indicador 42,
    {
-    title: "Total de hogares afectados por inundaciones",
-    value: 80085.00,
-  },
-  #indicador 11
-  {
-    title: "Total de toneladas de residuos solidos municipales desechadas en rellenos sanitarios",
-    value: 80085.00,
+    statistic_id: 26,
+    indicator_id: 42,
   },
   {
-    title: "Total de toneladas de residuos solidos producidos por la ciudad",
-    value: 80085.00,
+    statistic_id: 27,
+    indicator_id: 42,
   },
-  #indicador 12,
-  #indicador 13,
-  #indicador 14,
+ #indicador 43,
+ {
+  statistic_id: 28,
+  indicator_id: 43,
+},
+{
+  statistic_id: 2,
+  indicator_id: 43,
+},
+ #indicador 45,
+ {
+  statistic_id: 29,
+  indicator_id: 45,
+},
+ #indicador 46,
+ {
+  statistic_id: 30,
+  indicator_id: 46,
+},
+
+ #indicador 49,
+ {
+  statistic_id: 31,
+  indicator_id: 40,
+},
+ {
+  statistic_id: 32,
+  indicator_id: 49,
+},
+ {
+  statistic_id: 24,
+  indicator_id: 49,
+},
+ #indicador 50,
   {
-    title: "Total de toneladas de residuos solidos compostados",
-    value: 80085.00,
-  },
-  #indicador 15,
-  {
-    title: "Total de toneladas de residuos solidos reciclado",
-    value: 80085.00,
-  },
-   #indicador 16,
-  {
-    title: "Total de toneladas de residuos solidos usados como energia",
-    value: 80085.00,
-  },
-  #indicador 17,
-  {
-    title: "Total de hogares con coneccion autorizada al sistema electrico",
-    value: 80085.00,
-  },
-   #indicador 18,
-   {
-    title: "Total de hogares con coneccion autorizados al sistema de gas natural",
-    value: 80085.00,
-  },
-  #indicador 19,
-  #indicador 20,
-  {
-    title: "Suma total de la duracion de interrupciones a clientes",
-    value: 80085.00,
-  },
-  {
-    title: "Cantidad total de interrupciones a clientes",
-    value: 80085.00,
-  },
-  #indicador 21,
-  {
-    title: "Uso anual residencial de electricidad",
-    value: 80085.00,
-  },
-  #indicador 22,
-  #indicador 23*T,
-  #indicador 24,
-    title: "Energia Renobable generada",
-    value: 80085.00,
-  },
-  {
-    title: "Total de energia electrica generada",
-    value: 80085.00,
-  },
-  #indicador 25*T,
-  #indicador 26,
-  #indicador 27,
-  #indicador 28*T,
-  #indicador 29,
-  {
-    title: "Total de emisiones de GEI",
-    value: 80085.00,
-  },
-  {
-    title: "Población total",
-    value: 80085.00,
-  },
-  #indicador 30,
-  {
-    title: "Producto interno bruto",
-    value: 80085.00,
-  },
-  #indicador 31*T,
-  #indicador 32*T,
-  #indicador 33*T,
-  #indicador 34*T,
-  #indicador 35*T,
-  #indicador 36*T,
-  #indicador 37,
-  #indicador 38*T,
-  #indicador 39,
-  #indicador 40,
- ]
+  statistic_id: 33,
+  indicator_id: 50,
+},
+ {
+  statistic_id: 2,
+  indicator_id: 50,
+},
+ #indicador 58,
+{
+  statistic_id: 34,
+  indicator_id: 58,
+},
+#indicador 60,
+{
+  statistic_id: 35,
+  indicator_id: 60,
+},
+{
+  statistic_id: 24,
+  indicator_id: 60,
+},
+]

@@ -6,18 +6,17 @@
   <div class="dropdown ">
     <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
     <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-      <li> <a href="/"> <p> <i style="padding-left: 10px;"class="fas fa-home"></i>Home</p></a></li>
+      <li> <a href="/"> <p> <i style="padding-left: 10px;"class="fas fa-home"></i> Home</p></a></li>
       <li><%= link_to topics_path do %> <i style="padding-left: 10px;"class="fas fa-file-alt"></i> Indicadores</p><% end %></li>
-       <li><%= link_to statistics_path do %> <p><i style="padding-left: 10px;"class="fas fa-chart-bar"></i> Estadisticas</p><% end %></li>
-       <% if user_signed_in? %>
-       <li><a href="/dashboard"><p><i style="padding-left: 10px;"class="fas fa-tools"></i>></i>Dashboard</p></a></li>
-       <%= link_to destroy_user_session_path, method: :delete do %>
-     <p><i style="padding-left: 10px;"class="fas fa-sign-out-alt"></i> Salir</p>
-     <% end %>
-      <% end %>
+      <li><%= link_to statistics_path do %> <p><i style="padding-left: 10px;"class="fas fa-chart-bar"></i> Estadisticas</p><% end %></li>
       <li><a href="/"><p><i style="padding-left: 10px;"class="fas fa-phone-volume"></i> Contacto</p></a></li>
+      <% if user_signed_in? %>
+      <li><a href="/dashboard"><p><i style="padding-left: 10px;"class="fas fa-tools"></i></i> Dashboard</p></a></li>
+      <%= link_to destroy_user_session_path, method: :delete do %>
+      <p><i style="padding-left: 10px;"class="fas fa-sign-out-alt"></i> Salir</p>
+      <% end %>
+      <% end %>
     </ul>
   </div>
-
 </div>
 

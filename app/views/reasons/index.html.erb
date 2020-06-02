@@ -25,20 +25,16 @@
   <hr>
   <div class="table">
     <div class="table-content">
-      <% @reasons.each do |reason| %>
-      <div class="topic">
-        <%= link_to reason do %>
-        <h3>· <%= reason.title %></h3>
-        <% end %>
-        <div>
-          <% reason.themes.each do |theme| %>
-          <%= link_to theme do %>
-          <h6> <%= theme.title %> </h6>
-          <%end%>
-          <%end%>
-        <% end %>
-        </div>
-      </div>
+     <% @reasons.each do |indicator| %>
+     <div class="topic">
+      <%= link_to indicator do %>
+
+      <h3>· <%= indicator.title %></h3>
+
+      <% end %>
     </div>
+    <% end %>
   </div>
 </div>
+</div>
+

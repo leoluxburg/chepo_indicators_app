@@ -29,7 +29,7 @@
           <hr>
           <% @stats.each do |s| %>
 
-          <p><%= s.id %> <%= s.title %> | <%= s.value %> <br> <%= link_to 'Show', s %> | <%= link_to 'Edit', edit_indicator_path(s) %> | <% link_to 'Destroy', s, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+          <p><%= s.id %> <%= s.title %> | <%= s.value %> <br> <%= link_to 'Show', s %> | <%= link_to 'Edit', edit_statistic_path(s) %> | <% link_to 'Destroy', s, method: :delete, data: { confirm: 'Are you sure?' } %></p>
 
           <% end %>
         </div>
